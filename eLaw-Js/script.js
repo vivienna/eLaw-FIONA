@@ -1,0 +1,17 @@
+$(document).ready(function () {
+    
+    $('#nav1 li').hover(function () {
+        $('ul', this).slideDown(200);
+        $(this).children('a:first').addClass("hov");
+    }, function () {
+        $('ul', this).slideUp(100);
+        $(this).children('a:first').removeClass("hov");
+    });
+    $('#nav2 li').hover(function () {
+        $('ul', this).slideDown(200);
+        $(this).children('a:first').addClass("hov");
+    }, function () {
+        $('ul', this).slideUp(100);
+        $(this).children('a:first').removeClass("hov");
+    });
+    });
